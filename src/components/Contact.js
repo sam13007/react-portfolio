@@ -17,7 +17,7 @@ function Contact() {
           <form
             className="flex flex-col w-full md:w-1/2"
             method="POST"
-            action="https://getform.io/f/4b259082-b6e2-429f-995f-d11baa25e2ae"
+            action="https://getform.io/f/5cea72b1-c966-4379-8ae5-187af27ab8bf"
           >
             <input
               type="text"
