@@ -2,7 +2,7 @@ import React from "react";
 import hulu from "../assets/huluClone.png";
 import vote from "../assets/voting.jpeg";
 import nftMarket from "../assets/nftMarket.png";
-
+import youtubeClone from "../assets/youtubeClone.png";
 function Portfolio() {
   const portfolios = [
     {
@@ -24,13 +24,20 @@ function Portfolio() {
       isDemo: false,
       codeLink: "https://github.com/sam13007/NFT_marketplace",
     },
+    {
+      id: 4,
+      imageSrc: youtubeClone,
+      isDemo: true,
+      codeLink: "https://github.com/sam13007/youtube_clone",
+      demoLink: "https://youtube-clone-shyam13007.vercel.app/",
+    },
   ];
   return (
     <div
       name="Portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full h-full pb-28 text-white "
     >
-      <div className="flex flex-col justify-center h-full  max-w-screen-xl mx-auto">
+      <div className="flex flex-col justify-center  h-full  max-w-screen-xl mx-auto">
         {/* Header */}
         <div className="pb-8">
           <p className=" text-4xl border-b-4 inline border-gray-500">

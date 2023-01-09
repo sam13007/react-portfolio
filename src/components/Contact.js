@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div
       name="Contact"
-      className="h-screen w-full bg-gradient-to-b from-black to-gray-800 text-white"
+      className="h-full w-full bg-gradient-to-b from-black to-gray-800 text-white"
     >
       <div className="flex flex-col justify-center mx-auto p-4 max-w-screen-lg  h-full">
         <div className="pb-8">

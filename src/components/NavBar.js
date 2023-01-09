@@ -27,7 +27,7 @@ function NavBar() {
     },
   ];
   return (
-    <div className="flex justify-between  bg-black  text-white h-20 w-full px-4 items-center fixed">
+    <div className="flex justify-between  bg-black  text-white h-20 w-full px-4 items-center top-0 sticky">
       <div>
         <h1
           className="text-5xl ml-4 py-4

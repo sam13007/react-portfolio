@@ -67,7 +67,7 @@ function Experience() {
     },
   ];
   return (
-    <div className="h-screen w-full bg-gradient-to-b  from-gray-800 to-black text-white">
+    <div className="h-full w-full bg-gradient-to-b  from-gray-800 to-black text-white">
       <div className="flex flex-col justify-center max-w-screen-lg h-full  w-full mx-auto">
         {/* Title */}
         <div className="pb-10">

@@ -6,9 +6,9 @@ function Home() {
   return (
     <div
       name="Home"
-      className="h-screen w-full bg-gradient-to-b from-black to-gray-800"
+      className="h-full w-full bg-gradient-to-b from-black to-gray-800 "
     >
-      <div className="flex flex-col justify-center items-center max-w-screen-lg mx-auto h-full px-4 md:flex-row  ">
+      <div className="flex flex-col justify-center items-center max-w-screen-lg mx-auto h-screen px-4 md:flex-row  ">
         <div className="flex flex-col h-full justify-center">
           {/* Full Stack developer and description */}
           <h2 className="text-6xl font-bold capitalize  text-white">
